@@ -1,0 +1,2 @@
+pip install twisted autobahn pycurl pyping
+python 17ce_client.py
