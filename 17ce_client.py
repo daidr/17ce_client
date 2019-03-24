@@ -23,7 +23,7 @@ class CeClientProtocol(WebSocketClientProtocol):
             "Pong": self.onPong_,
             "TaskList": self.onTaskList
         }
-        self.USERNAME = "xxx@xxx.com"  # modify to your username(email)
+        self.USERNAME = "daidou@daidou.pw"  # modify to your username(email)
         self.UUID = hex(uuid.getnode())[2:-1]  # modify to your uuid or keep default
         self.LOCALIP = "192.168.1.1"  # modify to your local ip (optional)
         self.DNSIP = "127.0.0.1"  # modify to your dns ip (optional)
